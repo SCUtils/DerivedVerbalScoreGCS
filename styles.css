@@ -26,13 +26,13 @@ button:hover {
 .main-form {
   align-items: center;
   background-color: rgb(250, 250, 250);
-  border-radius: 5px;
+  border-radius: 0.3rem;
   box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-flow: column;
   height: 20rem;
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .form-title {
@@ -48,7 +48,7 @@ button:hover {
   flex-flow: column;
   height: 15rem;
   justify-content: space-between;
-  width: 350px;
+  width: 21.875rem;
 }
 
 .form-item {
@@ -93,17 +93,21 @@ button:hover {
 
 .form-warning-active {
   outline: 1px solid rgb(225, 0, 0);
-  border-radius: 5px;
+  border-radius: 0.3rem;
 }
 
 .form-result {
-  border-radius: 5px;
+  border-radius: 0.3rem;
   border: 1px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 2rem;
   min-width: 8rem;
+}
+
+.form-references {
+    max-width: 25rem;
 }
 
 footer {
