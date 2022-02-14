@@ -1,4 +1,5 @@
 const WARNING_MESSAGE_DURATION = 5000;
+const DECIMAL_TRUNCATION_LENGTH = 6;
 
 /**
  * Handler invoked when the calculate button is clicked
@@ -21,7 +22,7 @@ function handleCalculateDerivedVerbalScore() {
     const derivedVerbalScore =
       -0.3756 + Number(motorScore) * 0.5713 + Number(eyeScore) * 0.4233;
     document.getElementById('derivedVerbalScore').innerHTML =
-      derivedVerbalScore.toFixed(6);
+      derivedVerbalScore.toFixed(DECIMAL_TRUNCATION_LENGTH);
   }
 }
 
