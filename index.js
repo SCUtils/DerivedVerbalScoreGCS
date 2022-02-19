@@ -7,8 +7,6 @@ const DECIMAL_TRUNCATION_LENGTH = 6;
 function handleCalculateDerivedVerbalScore() {
   const motorScore = document.getElementById('motorScoreInput').value;
   const eyeScore = document.getElementById('eyeScoreInput').value;
-  console.log('motorscore: ', motorScore);
-  console.log('eyescore: ', eyeScore);
 
   if (motorScore === '' || eyeScore === '') {
     generateWarningMessage(
